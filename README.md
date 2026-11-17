@@ -1,6 +1,6 @@
-# Projurista Legislação
+# Projurista Legislacao
 
-Plugin para o Obsidian que traz embutida a legislação brasileira em **texto literal** e permite consultar, citar e conferir dispositivos de lei de forma determinística: dentro das notas e, pelo servidor MCP local, no Claude.
+**Projurista Legislação** é um plugin para o Obsidian que traz embutida a legislação brasileira em **texto literal** e permite consultar, citar e conferir dispositivos de lei de forma determinística: dentro das notas e, pelo servidor MCP local, no Claude.
 
 É o irmão do [Projurista MCP](https://github.com/Ja1meZ/projurista-mcp), que faz o mesmo com súmulas e precedentes qualificados. A ideia é uma só: o teor de um artigo não se escreve de memória; copia-se de uma base conferida.
 
