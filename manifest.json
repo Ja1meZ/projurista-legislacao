@@ -1,0 +1,10 @@
+{
+	"id": "projurista-legislacao",
+	"name": "Projurista Legislacao",
+	"version": "0.1.0",
+	"minAppVersion": "1.13.0",
+	"description": "Brazilian legislation as literal text: look up, cite and verify statutory provisions deterministically, in your notes and through a local MCP server for Claude.",
+	"author": "Projurista",
+	"authorUrl": "https://github.com/Ja1meZ",
+	"isDesktopOnly": true
+}

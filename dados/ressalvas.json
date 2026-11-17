@@ -1,0 +1,68 @@
+{
+ "artigos": {
+  "D6514:62": [
+   "As três vias de extração não chegaram a consenso sobre o texto deste artigo. Confira no Portal da Legislação (Planalto) antes de citar."
+  ],
+  "LConc:27": [
+   "As três vias de extração não chegaram a consenso sobre o texto deste artigo. Confira no Portal da Legislação (Planalto) antes de citar."
+  ]
+ },
+ "diplomas": {
+  "CP": [
+   "Diploma gerado a partir da página de texto compilado do Planalto: o texto vigente confere, mas redações anteriores podem não constar da base."
+  ],
+  "CTN": [
+   "Diploma gerado a partir da página de texto compilado do Planalto: o texto vigente confere, mas redações anteriores podem não constar da base."
+  ],
+  "CDC": [
+   "Diploma gerado a partir da página de texto compilado do Planalto: o texto vigente confere, mas redações anteriores podem não constar da base."
+  ],
+  "CTB": [
+   "Diploma gerado a partir da página de texto compilado do Planalto: o texto vigente confere, mas redações anteriores podem não constar da base."
+  ],
+  "ECA": [
+   "Diploma gerado a partir da página de texto compilado do Planalto: o texto vigente confere, mas redações anteriores podem não constar da base."
+  ],
+  "LINDB": [
+   "Diploma gerado a partir da página de texto compilado do Planalto: o texto vigente confere, mas redações anteriores podem não constar da base."
+  ],
+  "LCH": [
+   "Diploma gerado a partir da página de texto compilado do Planalto: o texto vigente confere, mas redações anteriores podem não constar da base."
+  ]
+ },
+ "ausentes": [
+  {
+   "nome": "Lei de Licitações de 1993",
+   "lei": "Lei nº 8.666, de 21 de junho de 1993",
+   "formas": [
+    "Lei 8.666/1993",
+    "Lei de Licitações de 1993"
+   ],
+   "motivo": "Diploma revogado pela Lei nº 14.133/2021; não integra a base."
+  },
+  {
+   "nome": "Código de Processo Civil de 1973",
+   "lei": "Lei nº 5.869, de 11 de janeiro de 1973",
+   "formas": [
+    "Lei 5.869/1973",
+    "CPC/1973",
+    "CPC/73",
+    "CPC de 1973",
+    "Código de Processo Civil de 1973"
+   ],
+   "motivo": "Diploma revogado pela Lei nº 13.105/2015; não integra a base."
+  },
+  {
+   "nome": "Código Civil de 1916",
+   "lei": "Lei nº 3.071, de 1º de janeiro de 1916",
+   "formas": [
+    "Lei 3.071/1916",
+    "CC/1916",
+    "CC/16",
+    "CC de 1916",
+    "Código Civil de 1916"
+   ],
+   "motivo": "Diploma revogado pela Lei nº 10.406/2002; não integra a base."
+  }
+ ]
+}

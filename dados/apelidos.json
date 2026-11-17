@@ -1,0 +1,225 @@
+{
+ "CF": [
+  "Constituição Federal",
+  "Constituição da República",
+  "Constituição da República Federativa do Brasil",
+  "Constituição",
+  "Carta Magna",
+  "Carta da República",
+  "Lei Maior",
+  "CF/88",
+  "CF/1988",
+  "CRFB",
+  "CRFB/88",
+  "CR/88",
+  "Constituição Federal de 1988"
+ ],
+ "CC": [
+  "Código Civil",
+  "CC/2002",
+  "CC/02",
+  "Código Civil de 2002",
+  "CCB"
+ ],
+ "CPC": [
+  "Código de Processo Civil",
+  "CPC/2015",
+  "CPC/15",
+  "NCPC",
+  "Código de Processo Civil de 2015",
+  "Estatuto Processual Civil",
+  "Código Fux"
+ ],
+ "CP": [
+  "Código Penal",
+  "CPB",
+  "Estatuto Repressivo"
+ ],
+ "CPP": [
+  "Código de Processo Penal"
+ ],
+ "CTN": [
+  "Código Tributário Nacional"
+ ],
+ "CDC": [
+  "Código de Defesa do Consumidor",
+  "Código do Consumidor"
+ ],
+ "CTB": [
+  "Código de Trânsito Brasileiro",
+  "Código de Trânsito"
+ ],
+ "CLT": [
+  "Consolidação das Leis do Trabalho"
+ ],
+ "ECA": [
+  "Estatuto da Criança e do Adolescente"
+ ],
+ "EOAB": [
+  "Estatuto da Advocacia",
+  "Estatuto da OAB",
+  "Estatuto da Advocacia e da OAB"
+ ],
+ "EstCid": [
+  "Estatuto da Cidade"
+ ],
+ "EPI": [
+  "Estatuto da Pessoa Idosa",
+  "Estatuto do Idoso"
+ ],
+ "EPD": [
+  "Estatuto da Pessoa com Deficiência",
+  "Lei Brasileira de Inclusão",
+  "LBI"
+ ],
+ "EDesarm": [
+  "Estatuto do Desarmamento"
+ ],
+ "EMPU": [
+  "Estatuto do Ministério Público da União",
+  "Lei Orgânica do Ministério Público da União",
+  "LOMPU"
+ ],
+ "LAC": [
+  "Lei Anticorrupção"
+ ],
+ "LDes": [
+  "Lei Geral de Desapropriação",
+  "Lei de Desapropriações",
+  "Lei das Desapropriações"
+ ],
+ "LGPD": [
+  "Lei Geral de Proteção de Dados Pessoais",
+  "Lei Geral de Proteção de Dados"
+ ],
+ "LMP": [
+  "Lei Maria da Penha"
+ ],
+ "LOS": [
+  "Lei Orgânica da Saúde",
+  "Lei do SUS"
+ ],
+ "LACP": [
+  "Lei da Ação Civil Pública",
+  "Lei de Ação Civil Pública"
+ ],
+ "LAP": [
+  "Lei da Ação Popular",
+  "Lei de Ação Popular"
+ ],
+ "LPT": [
+  "Lei da Prisão Temporária",
+  "Lei de Prisão Temporária"
+ ],
+ "LOC": [
+  "Lei das Organizações Criminosas",
+  "Lei de Organizações Criminosas",
+  "Lei do Crime Organizado"
+ ],
+ "LPPP": [
+  "Lei das Parcerias Público-Privadas",
+  "Lei das PPPs"
+ ],
+ "LAA": [
+  "Lei de Abuso de Autoridade"
+ ],
+ "LAI": [
+  "Lei de Acesso à Informação"
+ ],
+ "LConc": [
+  "Lei de Concessões",
+  "Lei das Concessões"
+ ],
+ "LCA": [
+  "Lei de Crimes Ambientais",
+  "Lei dos Crimes Ambientais"
+ ],
+ "LD": [
+  "Lei de Drogas",
+  "Lei Antidrogas",
+  "Lei de Tóxicos"
+ ],
+ "LEF": [
+  "Lei de Execução Fiscal",
+  "Lei de Execuções Fiscais"
+ ],
+ "LEP": [
+  "Lei de Execução Penal",
+  "Lei de Execuções Penais"
+ ],
+ "LIA": [
+  "Lei de Improbidade Administrativa",
+  "Lei de Improbidade"
+ ],
+ "LIT": [
+  "Lei de Interceptação Telefônica",
+  "Lei das Interceptações Telefônicas"
+ ],
+ "LINDB": [
+  "Lei de Introdução às Normas do Direito Brasileiro",
+  "Lei de Introdução ao Código Civil",
+  "LICC"
+ ],
+ "LLD": [
+  "Lei de Lavagem de Dinheiro",
+  "Lei de Lavagem de Capitais"
+ ],
+ "LLC": [
+  "Lei de Licitações e Contratos",
+  "Lei de Licitações e Contratos Administrativos",
+  "Nova Lei de Licitações",
+  "NLLC"
+ ],
+ "LMed": [
+  "Lei de Mediação"
+ ],
+ "LRF": [
+  "Lei de Responsabilidade Fiscal"
+ ],
+ "LTort": [
+  "Lei de Tortura",
+  "Lei da Tortura"
+ ],
+ "LMS": [
+  "Lei do Mandado de Segurança"
+ ],
+ "LPA": [
+  "Lei do Processo Administrativo Federal",
+  "Lei do Processo Administrativo"
+ ],
+ "LRac": [
+  "Lei do Racismo",
+  "Lei Caó"
+ ],
+ "LCH": [
+  "Lei dos Crimes Hediondos",
+  "Lei de Crimes Hediondos"
+ ],
+ "LCOT": [
+  "Lei dos Crimes contra a Ordem Tributária"
+ ],
+ "LJE": [
+  "Lei dos Juizados Especiais",
+  "Lei dos Juizados Especiais Cíveis e Criminais"
+ ],
+ "LJEF": [
+  "Lei dos Juizados Especiais Federais"
+ ],
+ "LJEFP": [
+  "Lei dos Juizados Especiais da Fazenda Pública",
+  "Lei dos Juizados da Fazenda Pública"
+ ],
+ "RJU": [
+  "Regime Jurídico dos Servidores Públicos Civis da União",
+  "Regime Jurídico Único",
+  "Estatuto dos Servidores Públicos Federais"
+ ],
+ "EC113": [
+  "EC 113/2021",
+  "EC n. 113/2021"
+ ],
+ "EC136": [
+  "EC 136/2025",
+  "EC n. 136/2025"
+ ]
+}
