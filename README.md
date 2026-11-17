@@ -12,6 +12,22 @@ Plugin para o Obsidian que traz embutida a legislação brasileira em **texto li
 - **Servidor MCP local**: o Claude Desktop e o Claude Code ganham quatro ferramentas (`obter_dispositivo`, `buscar_legislacao`, `listar_diplomas`, `verificar_citacoes_legislacao`) que respondem só com o texto da base.
 - **Notas no cofre (opcional)**: os diplomas que você escolher podem ser gravados como notas, com o texto literal e o hash de conferência.
 
+## Instalação
+
+O plugin aguarda a inclusão no diretório oficial de plugins não oficiais do Obsidian. Enquanto isso, instale por um destes caminhos:
+
+**Pelo BRAT (recomendado, com atualização automática)**
+
+1. No Obsidian, abra Configurações → Plugins não oficiais, desligue o modo restrito e instale o plugin **BRAT**.
+2. Nas configurações do BRAT, clique em "Add beta plugin" e informe `Ja1meZ/projurista-legislacao`.
+3. Ative o Projurista Legislação em Configurações → Plugins não oficiais.
+
+**À mão**
+
+1. Baixe `main.js`, `manifest.json` e `styles.css` da [última release](https://github.com/Ja1meZ/projurista-legislacao/releases/latest).
+2. Crie a pasta `<seu cofre>/.obsidian/plugins/projurista-legislacao/` e ponha os três arquivos nela.
+3. Reinicie o Obsidian e ative o plugin em Configurações → Plugins não oficiais.
+
 ## A base
 
 Versão 2026.11.17: **60 diplomas federais e 10.225 artigos**, entre eles a Constituição Federal (com o ADCT), os Códigos Civil, de Processo Civil, Penal, de Processo Penal, Tributário Nacional, de Defesa do Consumidor e de Trânsito, a CLT, o ECA, a Lei de Execução Penal, a Lei de Improbidade Administrativa, a Lei de Drogas, a Lei Maria da Penha, a Lei de Licitações e Contratos, a LGPD e as leis processuais usuais. A lista completa, com as datas das fontes, sai do comando `listar_diplomas` e do arquivo [`dados/legislacao.relatorio.md`](dados/legislacao.relatorio.md).
