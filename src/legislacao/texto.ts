@@ -3,10 +3,11 @@ import type { Artigo, Unidade } from "./base";
 /**
  * Anotações de alteração legislativa que o Planalto acrescenta ao fim do dispositivo:
  * "(Redação dada pela Lei nº ...)", "(Incluído pela ...)", "(Vide ...)", "(Vigência)".
+ * No Regimento Interno do TJPE: "(Alterado pelo art. 1º da Emenda Regimental n. ...)", "(Inserido pelo ...)".
  * Não integram o texto da lei. "(VETADO)" e "(Revogado)" são conteúdo e ficam.
  */
 const INICIO_ANOTACAO =
-	"(?:Reda[çc][ãa]o|Inclu[íi]d[oa]|Incu[íi]d[oa]|Acrescid[oa]|Acrescentad[oa]|Renumera|Numerad[oa]|Vide\\b|Vig[êe]ncia|Regulament|Produ[çc][ãa]o de efeito|Transformad[oa]|Promulga[çc][ãa]o|Restabelecid[oa]|Restaurad[oa]|Suprimid[oa]|Veto rejeitado|Par[áa]grafo (?:[úu]nico )?(?:inclu[íi]do|renumerado|acrescido)|Inciso (?:inclu[íi]do|acrescido|renumerado)|Al[íi]nea (?:inclu[íi]da|acrescida|renumerada)|Artigo (?:inclu[íi]do|acrescido)|Express[ãa]o (?:declarada|suprimida)|Declarad[oa] inconstitucional|Revogad[oa] pel[oa])";
+	"(?:Reda[çc][ãa]o|Inclu[íi]d[oa]|Incu[íi]d[oa]|Acrescid[oa]|Acrescentad[oa]|Renumera|Numerad[oa]|Vide\\b|Vig[êe]ncia|Regulament|Produ[çc][ãa]o de efeito|Transformad[oa]|Promulga[çc][ãa]o|Restabelecid[oa]|Restaurad[oa]|Suprimid[oa]|Veto rejeitado|Par[áa]grafo (?:[úu]nico )?(?:inclu[íi]do|renumerado|acrescido)|Inciso (?:inclu[íi]do|acrescido|renumerado)|Al[íi]nea (?:inclu[íi]da|acrescida|renumerada)|Artigo (?:inclu[íi]do|acrescido)|Express[ãa]o (?:declarada|suprimida)|Declarad[oa] inconstitucional|Revogad[oa] pel[oa]|Alterad[oa] pel[oa]|Aterad[oa] pel[oa]|Inserid[oa] pel[oa])";
 const RE_ANOTACAO_FINAL = new RegExp(`\\s*\\(\\s*${INICIO_ANOTACAO}[^()]*(?:\\([^()]*\\)[^()]*)*\\)?\\.?\\s*$`, "i");
 const RE_PALAVRA_FINAL = /(?<=\))\s*(?:Vig[êe]ncia(?: encerrada)?|Produ[çc][ãa]o de efeitos?|Regulamento)\s*$/i;
 

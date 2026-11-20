@@ -1,5 +1,6 @@
 import { createHash } from "crypto";
 import type { Artigo, Base, Diploma } from "./base";
+import { fonteOficial } from "./base";
 
 /** Notas de um diploma para gravação no cofre, no mesmo contrato das notas de origem (bloco LITERAL + sha256_texto). */
 export interface NotaGerada {
@@ -114,7 +115,7 @@ export function gerarNotas(base: Base, diploma: Diploma): NotaGerada[] {
 			"",
 			`# ${diploma.nome}`,
 			"",
-			`${diploma.lei}. Texto literal do Portal da Legislação (Planalto), na data de ${diploma.dataFonte}. Notas gravadas pelo plugin Projurista Legislação a partir da base ${base.versao}; não edite o bloco entre LITERAL:INÍCIO e LITERAL:FIM.`,
+			`${diploma.lei}. Texto literal ${fonteOficial(diploma.sigla)}, na data de ${diploma.dataFonte}. Notas gravadas pelo plugin Projurista Legislação a partir da base ${base.versao}; não edite o bloco entre LITERAL:INÍCIO e LITERAL:FIM.`,
 			...diploma.avisos.map((a) => `\n> ${a}`),
 			"",
 			"| Artigos | Nota |",

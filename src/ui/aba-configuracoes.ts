@@ -63,7 +63,7 @@ export class AbaConfiguracoes extends PluginSettingTab {
 		return [
 			{
 				name: "Base de legislação",
-				desc: `Versão ${base.versao}: ${resumoCobertura(base)}, em texto literal do Portal da Legislação (Planalto).${integridade} A base é uma fotografia na data da fonte de cada diploma.`,
+				desc: `Versão ${base.versao}: ${resumoCobertura(base)}, em texto literal das fontes oficiais (Portal da Legislação do Planalto; o Regimento Interno do TJPE, do portal do TJPE).${integridade} A base é uma fotografia na data da fonte de cada diploma.`,
 				searchable: false,
 				render: (setting: Setting) => {
 					setting.addButton((b) => b.setButtonText("Consultar dispositivo").setCta().onClick(() => new ModalDispositivo(this.app, this.plugin, "consultar").open()));

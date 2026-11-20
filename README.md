@@ -30,7 +30,7 @@ O plugin aguarda a inclusão no diretório oficial de plugins não oficiais do O
 
 ## A base
 
-Versão 2026.11.17: **60 diplomas federais e 10.225 artigos**, entre eles a Constituição Federal (com o ADCT), os Códigos Civil, de Processo Civil, Penal, de Processo Penal, Tributário Nacional, de Defesa do Consumidor e de Trânsito, a CLT, o ECA, a Lei de Execução Penal, a Lei de Improbidade Administrativa, a Lei de Drogas, a Lei Maria da Penha, a Lei de Licitações e Contratos, a LGPD e as leis processuais usuais. A lista completa, com as datas das fontes, sai do comando `listar_diplomas` e do arquivo [`dados/legislacao.relatorio.md`](dados/legislacao.relatorio.md).
+Versão 2026.11.20: **61 diplomas e 10.792 artigos** — 60 diplomas federais, em texto do Portal da Legislação (Planalto), e o Regimento Interno do Tribunal de Justiça de Pernambuco (RITJPE, versão consolidada de 01/10/2026, até a Emenda Regimental n. 46/2026, em texto do portal do TJPE) —, entre eles a Constituição Federal (com o ADCT), os Códigos Civil, de Processo Civil, Penal, de Processo Penal, Tributário Nacional, de Defesa do Consumidor e de Trânsito, a CLT, o ECA, a Lei de Execução Penal, a Lei de Improbidade Administrativa, a Lei de Drogas, a Lei Maria da Penha, a Lei de Licitações e Contratos, a LGPD e as leis processuais usuais. A lista completa, com as datas das fontes, sai do comando `listar_diplomas` e do arquivo [`dados/legislacao.relatorio.md`](dados/legislacao.relatorio.md).
 
 Como a base é feita:
 
@@ -122,7 +122,7 @@ npm run build
 
 ## English summary
 
-Projurista Legislação embeds 60 Brazilian federal statutes (the Constitution, the main codes and commonly used acts; 10,225 articles) as literal text taken from the official Planalto portal. It lets you look up and cite a specific provision (article, paragraph, item) deterministically, checks every statutory citation in a note against the embedded text, and exposes the same tools to Claude through a local MCP server (127.0.0.1, token-protected). No network access, no telemetry. Every article carries a sha256 that is verified when the base is loaded. Desktop only. The interface is in Brazilian Portuguese.
+Projurista Legislação embeds 60 Brazilian federal statutes (the Constitution, the main codes and commonly used acts) as literal text taken from the official Planalto portal, plus the Internal Rules of the Court of Justice of Pernambuco (RITJPE), taken from the court's portal; 10,792 articles in all. It lets you look up and cite a specific provision (article, paragraph, item) deterministically, checks every statutory citation in a note against the embedded text, and exposes the same tools to Claude through a local MCP server (127.0.0.1, token-protected). No network access, no telemetry. Every article carries a sha256 that is verified when the base is loaded. Desktop only. The interface is in Brazilian Portuguese.
 
 ## Licença
 

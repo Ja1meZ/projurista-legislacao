@@ -12,7 +12,7 @@ function texto(conteudo: string): ResultadoFerramenta {
 }
 
 export function rodape(base: Base): string {
-	return `Base Projurista Legislação ${base.versao} — ${resumoCobertura(base)}. Texto do Portal da Legislação (Planalto), fotografado na data da fonte de cada diploma; alteração posterior não está refletida. Diploma ou artigo ausente da base não é inexistente.`;
+	return `Base Projurista Legislação ${base.versao} — ${resumoCobertura(base)}. Texto das fontes oficiais (Portal da Legislação do Planalto; o Regimento Interno do TJPE, do portal do TJPE), fotografado na data da fonte de cada diploma; alteração posterior não está refletida. Diploma ou artigo ausente da base não é inexistente.`;
 }
 
 function maiuscula(s: string): string {
@@ -164,7 +164,7 @@ export const obterDispositivo: Ferramenta = {
 export const buscarLegislacao: Ferramenta = {
 	name: "buscar_legislacao",
 	description:
-		"Procura, pelo assunto ou por palavras do texto, os dispositivos de lei da base embutida (60 diplomas federais: Constituição, códigos e leis usuais). Devolve os artigos mais pertinentes, com o trecho que responde à busca e a referência para obter_dispositivo. Use para descobrir QUAL artigo trata de um tema; para citar, chame depois obter_dispositivo. A busca é textual: tente duas ou três formulações com os termos que a lei usaria.",
+		"Procura, pelo assunto ou por palavras do texto, os dispositivos de lei da base embutida (Constituição, códigos e leis federais usuais, e o Regimento Interno do TJPE). Devolve os artigos mais pertinentes, com o trecho que responde à busca e a referência para obter_dispositivo. Use para descobrir QUAL artigo trata de um tema; para citar, chame depois obter_dispositivo. A busca é textual: tente duas ou três formulações com os termos que a lei usaria.",
 	annotations: SOMENTE_LEITURA,
 	inputSchema: {
 		type: "object",

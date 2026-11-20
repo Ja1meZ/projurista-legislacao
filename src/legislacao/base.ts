@@ -92,7 +92,13 @@ const SIGLA_NA_CITACAO: Record<string, string> = {
 	ECA: "do ECA",
 	LINDB: "da LINDB",
 	LEP: "da LEP",
+	RITJPE: "do RITJPE",
 };
+
+/** Origem do texto literal de cada diploma: o Planalto, salvo os atos de tribunal. */
+export function fonteOficial(sigla: string): string {
+	return sigla === "RITJPE" ? "do portal do Tribunal de Justiça de Pernambuco" : "do Portal da Legislação (Planalto)";
+}
 
 export function identificarAto(lei: string): { ato: string; ano: number; numero: string; prefixo: string } {
 	const ano = Number(/(\d{4})\s*$/.exec(lei)?.[1] ?? 0);

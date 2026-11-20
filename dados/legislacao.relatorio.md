@@ -1,9 +1,9 @@
-# Base de legislação 2026.11.17
+# Base de legislação 2026.11.20
 
-- Diplomas: 60
-- Notas lidas: 1893
-- Artigos: 10225
-- Artigos sem recorte (planos): 198 (1.9%)
+- Diplomas: 61
+- Notas lidas: 2001
+- Artigos: 10792
+- Artigos sem recorte (planos): 198 (1.8%)
 - Notas fora da forma NFC: 10
 
 | Sigla | Diploma | Fonte | Artigos | Planos | Rubricas | Linhas soltas |
@@ -68,6 +68,7 @@
 | LJEF | Lei dos Juizados Especiais Federais | 2026-10-01 | 27 | 0 | 0 | 0 |
 | LJEFP | Lei dos Juizados Especiais da Fazenda Pública | 2026-09-30 | 28 | 0 | 0 | 1 |
 | RJU | Regime Jurídico dos Servidores Públicos Civis da União | 2026-10-01 | 263 | 5 | 0 | 3 |
+| RITJPE | Regimento Interno do TJPE (RITJPE) | 2026-10-01 | 567 | 0 | 0 | 3 |
 
 ## Motivos de artigo plano
 
