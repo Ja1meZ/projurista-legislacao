@@ -1,6 +1,6 @@
 {
   "name": "projurista-legislacao",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Legislação brasileira em texto literal dentro do Obsidian: consulta, citação e verificação determinísticas de dispositivos legais.",
   "main": "main.js",
   "private": true,
